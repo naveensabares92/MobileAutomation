@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3638" started-at="2019-08-11T22:05:17Z" finished-at="2019-08-11T22:05:21Z">
+    <groups>
+      <group name="Logitech Assignment App Test">
+        <method signature="Test002_Click_A_MovieAndValidateContent.AndroidTest001()[pri:0, instance:com.logitechTest.LogitechTestAndroid.Test002_Click_A_MovieAndValidateContent@735b478]" name="AndroidTest001" class="com.logitechTest.LogitechTestAndroid.Test002_Click_A_MovieAndValidateContent"/>
+      </group> <!-- Logitech Assignment App Test -->
+      <group name="Smoke Test">
+        <method signature="Test002_Click_A_MovieAndValidateContent.AndroidTest001()[pri:0, instance:com.logitechTest.LogitechTestAndroid.Test002_Click_A_MovieAndValidateContent@735b478]" name="AndroidTest001" class="com.logitechTest.LogitechTestAndroid.Test002_Click_A_MovieAndValidateContent"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test name="Default test" duration-ms="3638" started-at="2019-08-11T22:05:17Z" finished-at="2019-08-11T22:05:21Z">
+      <class name="com.logitechTest.LogitechTestAndroid.Test002_Click_A_MovieAndValidateContent">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.logitechTest.LogitechTestAndroid.Test002_Click_A_MovieAndValidateContent@735b478]" name="launchApp" is-config="true" duration-ms="3103" started-at="2019-08-12T03:35:17Z" finished-at="2019-08-12T03:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="initializeReports()[pri:0, instance:com.logitechTest.LogitechTestAndroid.Test002_Click_A_MovieAndValidateContent@735b478]" name="initializeReports" is-config="true" duration-ms="124" started-at="2019-08-12T03:35:21Z" finished-at="2019-08-12T03:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReports -->
+        <test-method status="FAIL" signature="AndroidTest001()[pri:0, instance:com.logitechTest.LogitechTestAndroid.Test002_Click_A_MovieAndValidateContent@735b478]" name="AndroidTest001" duration-ms="27" started-at="2019-08-12T03:35:21Z" description="Android Test 001 - Launch the Application, click Avengers-Age Of Ultron movie and validate the content" finished-at="2019-08-12T03:35:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Unknown Source)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:100)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.logitechAssignmentApp.core.TestBase.waitUntilElementIsPresentClick(TestBase.java:152)
+	at com.logitechTest.LogitechTestAndroid.Test002_Click_A_MovieAndValidateContent.AndroidTest001(Test002_Click_A_MovieAndValidateContent.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AndroidTest001 -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.logitechTest.LogitechTestAndroid.Test002_Click_A_MovieAndValidateContent@735b478]" name="endReport" is-config="true" duration-ms="366" started-at="2019-08-12T03:35:21Z" finished-at="2019-08-12T03:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="FAIL" signature="closeApp()[pri:0, instance:com.logitechTest.LogitechTestAndroid.Test002_Click_A_MovieAndValidateContent@735b478]" name="closeApp" is-config="true" duration-ms="0" started-at="2019-08-12T03:35:21Z" finished-at="2019-08-12T03:35:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.logitechAssignmentApp.core.TestBase.closeApp(TestBase.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:521)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1019)
+	at org.testng.TestRunner.run(TestRunner.java:625)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.logitechTest.LogitechTestAndroid.Test002_Click_A_MovieAndValidateContent -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]">
+  <test name="Smoke Test(failed)">
+    <classes>
+      <class name="com.logitechTest.LogitechTestAndroid.Test001_LaunchAppAndVerifyTitle">
+        <methods>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+          <include name="initializeReports"/>
+          <include name="SmokeTest_001"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.logitechTest.LogitechTestAndroid.Test001_LaunchAppAndVerifyTitle -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
